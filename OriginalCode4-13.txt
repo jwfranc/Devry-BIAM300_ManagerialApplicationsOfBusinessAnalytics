@@ -1,0 +1,14 @@
+# Import the necessary modules
+import pandas as pd
+
+nba = df[['elo_i', 'pts', 'opp_pts']].corr()
+
+
+# Perform multiple linear regression on pts, elo_i, and opp_pts
+results = # Code to perform multiple regression using statsmodels ols 
+
+# Create an analysis of variance table
+aov_table = # Code to create ANOVA table
+
+# Print the analysis of variance table
+print(aov_table)
